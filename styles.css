@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #4E5150;
+  --secondary-color: #A9A9A9;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  padding: 1em;
+  margin: 0 auto;
+}
+
+.product-box {
+
+}
+
+.contact-information {
+
+}
+
+footer {
+  text-align: center;
+  margin-top: 4em;
+}
