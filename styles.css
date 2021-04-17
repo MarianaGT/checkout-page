@@ -45,6 +45,14 @@ input[id=phone] {
   background-image: url('images/phone.svg');
 }
 
+input[id=name] {
+  background-image: url('images/name.svg');
+}
+
+input[id=address] {
+  background-image: url('images/address.svg');
+}
+
 label {
   color: var(--orange);
   margin: 0.5em 0 1em 0;
