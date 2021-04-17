@@ -1,10 +1,12 @@
 :root {
   --primary-color: #4E5150;
-  --secondary-color: #A9A9A9;
+  --orange: #F2994A;
+  --gray: #A9A9A9;
 }
 
 body {
   font-family: Montserrat, sans-serif;
+  background-color: black;
   padding: 1em;
   margin: 0 auto;
 }
@@ -13,8 +15,36 @@ body {
 
 }
 
-.contact-information {
+.information-box {
+  background-color: white;
+  padding: 2em;
+  border-radius: 12px;
+}
 
+input {
+
+  border-bottom: 1px solid black;
+  padding: 0.7em;
+  width: 60%;
+  transition: width 0.4s ease-in-out;
+  padding-left: 40px;
+  background-image: url('images/email.svg');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+}
+
+input:focus {
+  border: 1px solid black;
+  width: 90%;
+}
+
+input .email {
+  border: none;
+}
+
+label {
+  color: var(--gray);
+  padding: 0.2em 0.5em;
 }
 
 footer {
