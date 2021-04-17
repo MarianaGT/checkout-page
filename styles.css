@@ -21,16 +21,16 @@ body {
   border-radius: 12px;
 }
 
-input {
-
+input[type=text] {
+  border: none;
   border-bottom: 1px solid black;
   padding: 0.7em;
   width: 60%;
   transition: width 0.4s ease-in-out;
   padding-left: 40px;
-  background-image: url('images/email.svg');
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
+  padding-bottom: 20px;
+  text-align: center;
+
 }
 
 input:focus {
@@ -38,13 +38,16 @@ input:focus {
   width: 90%;
 }
 
-input .email {
-  border: none;
+input[id=email] {
+  background-image: url('images/email.svg');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
 }
 
 label {
   color: var(--gray);
-  padding: 0.2em 0.5em;
+  margin: 0.5em 0 1em 0;
+  display: block;
 }
 
 footer {
