@@ -21,13 +21,13 @@ h1 {
 
 .information-box {
   background-color: white;
-  padding: 2em;
+  padding: 2em 3em;
   border-radius: 12px;
 }
 
-input[type=text] {
+input[type=text], select {
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--gray);
   padding: 0.7em;
   width: 80%;
   transition: width 0.4s ease-in-out;
@@ -61,8 +61,12 @@ input[id=city] {
   background-image: url('images/city.svg');
 }
 
-input[id=country] {
+select[id=country] {
   background-image: url('images/country.svg');
+}
+
+input[id=postal] {
+  background-image: url('images/postal.svg');
 }
 
 label {
@@ -78,6 +82,19 @@ input[type=submit] {
   border-radius: 12px;
   color: white;
   width: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.country {
+  width: 100%;
+}
+
+.postal {
+  width: 50%;
 }
 
 footer {
