@@ -15,11 +15,17 @@ body {
 h1 {
   text-align: center;
 }
-.product-box {
 
+.orange {
+  color: var(--orange);
 }
 
-.information-box {
+.product-box img {
+  height: 136px;
+  border-radius: 12px;
+}
+
+.white-box {
   background-color: white;
   padding: 2em 3em;
   border-radius: 12px;
