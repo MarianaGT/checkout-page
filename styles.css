@@ -23,6 +23,7 @@ h1 {
 .product-box img {
   height: 136px;
   border-radius: 12px;
+  margin: 0.5em;
 }
 
 .white-box {
