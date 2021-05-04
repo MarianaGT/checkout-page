@@ -112,3 +112,16 @@ footer {
   text-align: center;
   margin-top: 4em;
 }
+
+@media only screen and (min-width: 600px) {
+  .product-box {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 940px) {
+  .info-flex {
+    display: flex;
+  }
+}
+
