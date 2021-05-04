@@ -20,16 +20,23 @@ h1 {
   color: var(--orange);
 }
 
+.cross {
+  text-decoration: line-through;
+  font-size: 0.8em;
+  margin-left: 1em;
+}
+
 .product-box img {
   height: 136px;
   border-radius: 12px;
-  margin: 0.5em;
+  margin: 1em;
 }
 
 .white-box {
   background-color: white;
   padding: 2em 3em;
   border-radius: 12px;
+  margin: 1em;
 }
 
 input[type=text], select {
@@ -114,14 +121,17 @@ footer {
 }
 
 @media only screen and (min-width: 600px) {
-  .product-box {
-    width: 100%;
-  }
+
 }
 
 @media only screen and (min-width: 940px) {
   .info-flex {
     display: flex;
+  }
+
+  .product-box {
+    width: 50%;
+    position: sticky;
   }
 }
 
