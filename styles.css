@@ -130,8 +130,10 @@ footer {
   }
 
   .product-box {
-    width: 50%;
-    position: sticky;
+    width: 400px;
+    position: absolute;
+    top: 6.2em;
+    right: 2em;
   }
 }
 
