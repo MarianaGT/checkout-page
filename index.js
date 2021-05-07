@@ -3,7 +3,7 @@ const emailValid= /^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/;
 
 function ValidateEmail() {
   var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-  if (mail.value.match(validRegex)) {
+  if (document.emailform.mail.value.match(validRegex)) {
     document.getElementById("errormsg").innerHTML="Valid email address!";
     return true;
   } else {
@@ -11,3 +11,4 @@ function ValidateEmail() {
     alert("Invalid email address!");
     return false;
   }
+}

@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 </head>
-<body onload="document.mail.focus()">
+<body>
   <header>
     <h1>Checkout</h1>
   </header>
@@ -38,12 +38,12 @@
     </section>
     <section>
       <div class="white-box">
-        <form action="" onsubmit="ValidateEmail()">
+        <form name="emailform" action="" onsubmit="ValidateEmail()">
           <h3>CONTACT INFORMATION</h3>
           <input type="text" id="mail" placeholder="Enter your email" required>
           <span id="errormsg"></span>
           <label for="mail">E-mail</label>
-          <input type="text" id="phone" placeholder="Enter your phone" required pattern="phoneValid">
+          <input type="text" id="phone" placeholder="Enter your phone" required>
           <label for="phone">Phone</label><br>
           <h3>SHIPPING ADDRESS</h3>
           <input type="text" id="name" placeholder="Enter your full name" required>
