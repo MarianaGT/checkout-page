@@ -64,7 +64,7 @@ input[type=text]:invalid {
   box-shadow: 0 0 5px 1px red;
 }
 
-input[id=email] {
+input[id=mail] {
   background-image: url('images/email.svg');
 }
 
