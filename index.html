@@ -16,9 +16,9 @@
   <div class="info-grid">
     <section>
       <div class="white-box">
-        <form name="emailform" action="" onsubmit="ValidateEmail()">
+        <form name="emailform" action="">
           <h3>CONTACT INFORMATION</h3>
-          <input type="text" id="mail" placeholder="Enter your email" required>
+          <input type="email" id="mail" placeholder="Enter your email" required pattern="emailValid">
           <span id="errormsg"></span>
           <label for="mail">E-mail</label>
           <input type="text" id="phone" placeholder="Enter your phone" required>
@@ -42,11 +42,11 @@
               <label for="country">Country</label>
             </div>
             <div class="postal">
-              <input type="text" id="postal" placeholder="Enter your postal code" required pattern="/^[0-9]*$/">
+              <input type="text" id="postal" placeholder="Enter your postal code" required >
               <label for="postal">Postal code</label>
             </div>
           </div><br>
-          <input type="submit" value="Continue">
+          <button>Continue</button>
         </form>
       </div>
     </section>

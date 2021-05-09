@@ -44,7 +44,7 @@ h1 {
   flex-direction: column-reverse;
 }
 
-input[type=text], select {
+input[type=text], input[type=email], select {
   border: none;
   border-bottom: 1px solid var(--gray);
   padding: 0.7em;
@@ -55,14 +55,14 @@ input[type=text], select {
   padding-left: 40px;
 }
 
-input[type=text]:focus {
+input[type=text]:focus, input[type=email]:focus  {
   border: 1px solid black;
   width: 80%;
 }
 
-input[type=text]:invalid {
+/*input[type=text]:invalid {
   box-shadow: 0 0 5px 1px red;
-}
+}*/
 
 input[id=mail] {
   background-image: url('images/email.svg');
@@ -98,7 +98,7 @@ label {
   display: block;
 }
 
-input[type=submit] {
+button {
   border: none;
   padding: 1em 2em;
   background-color: var(--orange);
