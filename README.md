@@ -34,17 +34,16 @@
 
 ![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
 
-All the inputs were implemented with basic HTML and customized with CSS.
-Validations and alerts were explored with a couple of solutions.
-Order of sections in HTML was modified with the flex-direction: column-reverse; property.
+Basic HTML5 built-in form types and validations were implemented. Inputs were customized with CSS and the order of the layout sections was modified with the ``flex-direction: column-reverse;`` property.
+Other validations and alerts were explored with a couple of solutions using JavaScript.
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- HTML5
+- CSS
+- JavaScript
 
 ## Features
 
