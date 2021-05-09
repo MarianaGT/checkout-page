@@ -39,6 +39,11 @@ h1 {
   margin: 1em;
 }
 
+.info-grid {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 input[type=text], select {
   border: none;
   border-bottom: 1px solid var(--gray);
@@ -125,15 +130,22 @@ footer {
 }
 
 @media only screen and (min-width: 940px) {
-  .info-flex {
-    display: flex;
+
+  .white-box {
+    margin: 1em;
   }
 
-  .product-box {
+  .info-grid {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    padding: 1em;
+  }
+
+/*  .product-box {
     width: 400px;
     position: absolute;
     top: 6.2em;
     right: 2em;
-  }
+  }*/
 }
 

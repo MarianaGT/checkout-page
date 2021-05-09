@@ -36,6 +36,7 @@
 
 All the inputs were implemented with basic HTML and customized with CSS.
 Validations and alerts were explored with a couple of solutions.
+Order of sections in HTML was modified with the flex-direction: column-reverse; property.
 
 ### Built With
 
